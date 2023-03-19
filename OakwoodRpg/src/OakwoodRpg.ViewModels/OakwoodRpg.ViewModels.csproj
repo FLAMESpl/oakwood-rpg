@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\OakwoodRpg.Backend\OakwoodRpg.Backend.csproj" />
+    <ProjectReference Include="..\OakwoodRpg.Models\OakwoodRpg.Models.csproj" />
   </ItemGroup>
 </Project>

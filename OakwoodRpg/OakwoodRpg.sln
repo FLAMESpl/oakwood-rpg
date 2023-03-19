@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.App", "src\Oakwo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.ViewModels", "src\OakwoodRpg.ViewModels\OakwoodRpg.ViewModels.csproj", "{4C88FB5B-3EEA-4E4C-9F6E-65E7E625E48B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.Backend", "src\OakwoodRpg.Backend\OakwoodRpg.Backend.csproj", "{FE2E6FB7-1F9F-41EB-A38E-4BD273D73294}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.Models", "src\OakwoodRpg.Models\OakwoodRpg.Models.csproj", "{FE2E6FB7-1F9F-41EB-A38E-4BD273D73294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakwoodRpg", "src\OakwoodRpg\OakwoodRpg.csproj", "{62A9F035-369F-42F1-84D9-8F60ABC8660A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg", "src\OakwoodRpg\OakwoodRpg.csproj", "{62A9F035-369F-42F1-84D9-8F60ABC8660A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakwoodRpg.Views", "src\OakwoodRpg.Views\OakwoodRpg.Views.csproj", "{D755F1FC-A344-43AB-8988-E3D931290BD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{62A9F035-369F-42F1-84D9-8F60ABC8660A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A9F035-369F-42F1-84D9-8F60ABC8660A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A9F035-369F-42F1-84D9-8F60ABC8660A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D755F1FC-A344-43AB-8988-E3D931290BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D755F1FC-A344-43AB-8988-E3D931290BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D755F1FC-A344-43AB-8988-E3D931290BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D755F1FC-A344-43AB-8988-E3D931290BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,6 @@
+using OakwoodRpg.Bootstrapping;
+using OakwoodRpg.Models;
+
 namespace OakwoodRpg.App
 {
     public class Program
@@ -9,6 +12,7 @@ namespace OakwoodRpg.App
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
+            builder.Services.BootstrapAssemblyRepresentedBy<InfrastructureRegistration>(builder.Configuration);
 
             var app = builder.Build();
 
