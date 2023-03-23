@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\OakwoodRpg.Models\OakwoodRpg.Models.csproj" />
+    <ProjectReference Include="..\OakwoodRpg\OakwoodRpg.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Identity\" />
+  </ItemGroup>
+</Project>

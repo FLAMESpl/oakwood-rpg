@@ -6,6 +6,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OakwoodRpg.Backend\OakwoodRpg.Backend.csproj" />
     <ProjectReference Include="..\OakwoodRpg.Models\OakwoodRpg.Models.csproj" />
     <ProjectReference Include="..\OakwoodRpg.ViewModels\OakwoodRpg.ViewModels.csproj" />
     <ProjectReference Include="..\OakwoodRpg.Views\OakwoodRpg.Views.csproj" />

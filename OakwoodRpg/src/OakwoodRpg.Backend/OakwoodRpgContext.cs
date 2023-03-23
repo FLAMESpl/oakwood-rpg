@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace OakwoodRpg.Models;
+namespace OakwoodRpg.Backend;
 
 internal class OakwoodRpgContext : DbContext
 {

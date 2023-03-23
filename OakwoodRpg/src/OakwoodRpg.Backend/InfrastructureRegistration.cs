@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using OakwoodRpg.Bootstrapping;
 
-namespace OakwoodRpg.Models;
+namespace OakwoodRpg.Backend;
 
 public class InfrastructureRegistration : IDependenciesRegistration
 {
