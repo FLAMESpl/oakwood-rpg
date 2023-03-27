@@ -14,6 +14,7 @@ namespace OakwoodRpg.App
             builder.Services.AddServerSideBlazor();
             builder.Services.BootstrapAssemblyRepresentedBy<Program>(builder.Configuration);
             builder.Services.BootstrapAssemblyRepresentedBy<InfrastructureRegistration>(builder.Configuration);
+            builder.Services.BootstrapAssemblyRepresentedBy<IDependenciesRegistration>(builder.Configuration);
             
             var app = builder.Build();
 

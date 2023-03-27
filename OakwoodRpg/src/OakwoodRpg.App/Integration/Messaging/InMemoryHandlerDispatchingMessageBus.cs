@@ -1,7 +1,7 @@
 ﻿using OakwoodRpg.Backend.Messaging;
 using OakwoodRpg.Messaging;
 
-namespace OakwoodRpg.App.BackendIntegration.Messaging;
+namespace OakwoodRpg.App.Integration.Messaging;
 
 internal class InMemoryHandlerDispatchingMessageBus : IMessageBus
 {

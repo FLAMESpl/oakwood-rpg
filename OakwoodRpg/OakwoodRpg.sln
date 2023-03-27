@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg", "src\OakwoodRp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.Views", "src\OakwoodRpg.Views\OakwoodRpg.Views.csproj", "{D755F1FC-A344-43AB-8988-E3D931290BD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakwoodRpg.Backend", "src\OakwoodRpg.Backend\OakwoodRpg.Backend.csproj", "{4193CB1D-EB01-4EA0-BAD1-D758566A3BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OakwoodRpg.Backend", "src\OakwoodRpg.Backend\OakwoodRpg.Backend.csproj", "{4193CB1D-EB01-4EA0-BAD1-D758566A3BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
