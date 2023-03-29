@@ -1,7 +1,10 @@
 ﻿@page "/login/facebook"
+@using Microsoft.Extensions.Options;
+@using OakwoodRpg.Authentication;
+@inject IOptions<AuthenticationSettings> AuthenticationSettings
 
-
+<p>@AuthenticationSettings.Value.Facebook?.AppId</p>
+<p>@AuthenticationSettings.Value.Facebook?.AppSecret</p>
 
 @code {
-
 }
