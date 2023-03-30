@@ -1,0 +1,12 @@
+﻿@page "/"
+@using OakwoodRpg.ViewModels.Index;
+@inject IndexViewModel ViewModel
+
+<RadzenButton 
+    Text="Login with facebook" 
+    ButtonStyle="ButtonStyle.Primary" 
+    Disabled="ViewModel.NavigateToFacebookLoginCommand.CanExecuteWithoutParameter()"
+    Click="ViewModel.NavigateToFacebookLoginCommand.ExecuteAsyncWithoutParameter"/>
+
+@code {
+}
