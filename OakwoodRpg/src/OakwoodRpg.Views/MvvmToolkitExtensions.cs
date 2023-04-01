@@ -4,6 +4,6 @@ namespace OakwoodRpg.Views;
 
 public static class MvvmToolkitExtensions
 {
-    public static bool CanExecute(this IAsyncRelayCommand command) => command.CanExecute(null);
-    public static Task ExecuteAsync(this IAsyncRelayCommand command) => command.ExecuteAsync(null);
+    public static bool CanExecuteWithoutParameter(this IAsyncRelayCommand command) => command.CanExecute(null);
+    public static Task ExecuteAsyncWithoutParameter(this IAsyncRelayCommand command) => command.ExecuteAsync(null);
 }
